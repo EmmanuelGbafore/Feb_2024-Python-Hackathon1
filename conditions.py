@@ -9,3 +9,19 @@
 # - Prompts a user to enter their age.
 # - Uses a conditional statement to check if the age is greater than or equal to 18.
 # - Prints "You are eligible to vote" if true, otherwise "You are not eligible to vote."
+
+# Request User's age
+age = int(input("Kindly enter your age: "))
+
+# Hard coded examples of entered ages. Uncomment one and comment the other to observe the effect.
+age = 19;   # Example of an eligible age
+#age = 16;   # Example of an ineligible age. Uncomment hard coded example to implement.
+
+# printing entered age
+print("Age is:" , age);
+
+# Conditional check for eligibility to vote
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
